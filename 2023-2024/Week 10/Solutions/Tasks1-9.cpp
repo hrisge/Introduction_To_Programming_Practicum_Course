@@ -342,7 +342,5 @@ void sort(char* str)
 
 int main()
 {
-	char arr[] = "alabala kvo stava";
-	removeSymbol(arr, 'a');
-	cout << arr;
+	
 }
