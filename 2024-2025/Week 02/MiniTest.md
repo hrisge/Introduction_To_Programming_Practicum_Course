@@ -30,17 +30,18 @@ using namespace std;
 int main()
 {
     int num = 25;
-    if (num == (10, 25, 35))
-    {
+
+    if (25 == ((++num)++)++) {
         cout << "first";
     }
-    else if (num = !num, num += 1, (--num)++)
-    {
+    else if (26 == num--){
         cout << "second";
     }
-    else
-    {
+    else if (26 == ++num) {
         cout << "third";
+    }
+    else {
+        cout << "fourth";
     }
 }
 ```
@@ -59,7 +60,7 @@ int main()
     cin >> grade;
     if (grade == 2)
         cout << "fail";
-    else if (grade <= 5)
+    else if (grade == 5)
         cout << "nice";
     else if (grade == 6)
         cout << "excellent";
