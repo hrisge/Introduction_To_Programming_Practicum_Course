@@ -31,17 +31,20 @@ int main()
 {
     int num = 25;
 
-    if (25 == ((++num)++)++) {
+    if (25 == (++(--(++num)))) {
         cout << "first";
     }
-    else if (26 == num--){
+    else if (27 == +num) {
         cout << "second";
     }
-    else if (26 == ++num) {
+    else if (26 == num--) {
         cout << "third";
     }
-    else {
+    else if (26 == ++num) {
         cout << "fourth";
+    }
+    else {
+        cout << "fifth";
     }
 }
 ```
@@ -71,7 +74,7 @@ int main()
 
 ```c++
 #include <iostream>
-uusing namspace std;
+using namespace std;
 
 int main()
 {
